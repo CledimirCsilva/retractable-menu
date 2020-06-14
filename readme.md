@@ -4,4 +4,4 @@
 
 ## A simple responsive retractable menu with a little CSS and Javascript.
 
-[See demo](http://www.ccsweb.com.br/menu-retratil){:target="_blank"}
+[See demo](http://www.ccsweb.com.br/menu-retratil)
