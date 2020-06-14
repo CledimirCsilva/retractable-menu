@@ -1,4 +1,4 @@
-![Retractable Web Menu](http://ccsweb.com.br/images/menu-design.jpg)
+![Retractable Web Menu](http://www.ccsweb.com.br/images/menu-design.jpg)
 
 # **Retractable Web Menu**
 
