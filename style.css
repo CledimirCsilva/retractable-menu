@@ -1,0 +1,36 @@
+body, ul {margin:0; padding: 0;}
+body {margin: 5px;}
+section header { text-align: center; }
+h1 {font-weight: 400; font-size: 2.3em;}
+p {font-weight: 400; font-size: 1.5em; text-align: center; color: #696969;}
+* {font-family: 'MuseoModerno', cursive;}
+ul {list-style-type: none;}
+a {text-decoration: none;}
+ul a {
+    text-align: center; color: #dadada; 
+    display: block; height: 50px; line-height: 50px;
+    transition-property: all; transition-duration: 0.2s; transition-delay: .1s;
+}
+ul li:nth-of-type(even) a {background:rgb(37, 36, 36)}
+ul li:nth-of-type(odd) a {background:rgb(43, 39, 39)}
+ul li a:hover {background: black}
+#firstItem {
+    height: 40px; line-height: 40px; font-weight: bold; text-align: right; padding: 10px;
+    background: rgb(31, 29, 29); cursor: pointer; color: #fff
+}
+#firstItem span {font-size: 2em; font-weight: bold; }
+#itensMenu {
+    height: 0; width: 100%; overflow: hidden; transition-property: all; 
+    transition-duration: 0.5s; transition-delay: .3s;
+}
+
+.expand {height: 200px!important; }
+.retract {height: 0}
+span {
+    display: block; width: 40px; height: 40px; text-align: center;
+    float: right; transition-property: all; transition-duration: 0.5s; transition-delay: .3s;
+}
+.rotateRight {transform: rotate(0deg)}
+.rotateLeft {transform: rotate(-135deg)}
+p:last-of-type {font-size: .75em; margin-top: 100px}
+p:last-of-type a {color: #242424; font-weight: 400; letter-spacing: 1px}
